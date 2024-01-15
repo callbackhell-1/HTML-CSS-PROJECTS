@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search on Flipkart</title>
+  </head>
+  <body>
+    <h1>Search Engines</h1>
+    <hr />
+
+    <form target="_blank" action="https://www.youtube.com/results">
+      <h1>Youtube Search</h1>
+      <label for="yt">Search on youtube</label> <br />
+      <input
+        type="text"
+        name="search_query"
+        id="yt"
+        placeholder="Enter to search on youtube"
+      />
+      <button type="submit">Search on YT</button>
+    </form>
+
+    <!--  Flipkart search integrate & open in new page -->
+    <h1>Flipkart Search</h1>
+    <form target="_blank" action="https://www.flipkart.com/">
+      <label for="fkart">Search on Flipkart</label> <br />
+      <input type="text" name="q" id="fkart" />
+      <button type="submit">Search product on FK</button>
+    </form>
+
+    <!-- Amazon search  -->
+    <h1>Amazon Search</h1>
+    <form target="_blank" action="https://www.amazon.co.uk/s/">
+      <label for="amazonSearch">Search on Amazon UK</label> <br />
+      <input type="text" name="field-keywords" id="amazonSearch" />
+      <button type="submit">Search on Amazon</button>
+    </form>
+
+    <!-- Google search  -->
+    <h1>Google Search</h1>
+    <form target="_blank" action="https://www.google.com/search">
+      <label for="googleSearch">Search on google</label> <br />
+      <input type="text" name="q" id="googleSearch" />
+      <button type="submit">Search on Google</button>
+    </form>
+
+    <!-- My Form -->
+    <form action="/03_forms_integrate_YT_Flipkart/index.html" hidden>
+      <h1>My Form</h1>
+      <input type="text" name="myform" />
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
