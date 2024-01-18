@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amazon Signup form</title>
+  </head>
+  <body>
+    <form action="/">
+      <label for="uname">First and last name</label> <br />
+      <input
+        type="text"
+        name="username"
+        id="uname"
+        placeholder="Enter your Name "
+        required
+      />
+      <br />
+      <br />
+      <label for="email">Email Id</label> <br />
+      <input
+        type="email"
+        name="email_id"
+        id="email"
+        placeholder="Enter your Email Id "
+        required
+      />
+      <br /><br />
+      <label for="MNo">Mobile Number</label> <br />
+      <input
+        type="number"
+        name="mobile"
+        id="MNo"
+        placeholder="Enter your Mobile Number "
+        required
+        minlength="10"
+      />
+
+      <br /><br />
+      <label for="pass"> Create a password</label> <br />
+      <input
+        type="password"
+        name="password"
+        id="pass"
+        placeholder="Enter your  Password "
+        required
+        minlength="6"
+      />
+      <br /><br />
+      <label for="aggre"></label>
+      <input type="checkbox" name="tnC" id="agree" required />
+
+      <button type="submit">Signup</button>
+    </form>
+  </body>
+</html>
